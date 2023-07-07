@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang=”pt-br”>
+<head>
+	<meta  name='viewport' content='width=device-width'> <!-- Sendo possível a página redenrizar automaticamente para ser vizualizado em um Dispositivo Mobile -->
+	<title>AVA2 - Davi de Oliveira Garcia</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+		<center><h1 class="titulo"> FICHA DE CADASTRO </h1></center>
+
+	<div class="container">
+		<fieldset id="fieldset">
+			<form name="formulario" method="post" action="#">
+				<div>
+					<label>Nome:</label></br>
+					<input  class="linha1" name="nome" onkeypress="return event.charCode > 96 && event.charCode < 123 || event.charCode > 64 && event.charCode < 91 || event.charCode == 32 ">  <!--Só aceita Letras Maiúsculas e Minúsculas -->
+				</div> 
+					</br>
+				<div>
+					<label>Email:</label></br>
+					<input  class="linha1" name="email" >
+				</div>
+					</br>
+				<div>
+					<label>Data de Nascimento: </br>
+					<input class="nasc" type="number" size="4" id="px" name="dia" required>/
+					<input class="nasc" type="number" size="4" id="px" name="mes" required>/
+					<input class="nasc" type="number" size="4" id="px" name="ano" required></label>
+				</div>
+					</br>
+				<div>
+					<label >Estado Civil:</label></br>
+					<select id="estadocivil" name="estadocivil">
+					<option value="SOLTEIRO">Solteiro(a)</option>
+					<option value="CASADO">Casado(a)</option>
+					<option value="OUTROS">Outros</option>
+					</select>
+				</div>
+					</br>
+				<div>
+					<label>Sexo:</label></br>
+					<input class="sexo" type="radio" name="sexo" value="MASCULINO" checked >
+					<label class="interesse">Masculino</label></br>
+					<input class="sexo" type="radio" name="sexo" value="FEMININO" required>
+					<label class="interesse">Feminino</label> </br>
+				</div>
+					</br>
+				<div>
+					<label >Áreas de Interesse:</label> </br>
+					<input type="checkbox" class="interesse" id="c1" value="ANÁLISE"><label class="interesse">Análise</label></br>
+					<input type="checkbox" class="interesse" id="c3" value="BANCO DE DADOS"><label class="interesse">Banco de dados</label></br>
+					<input type="checkbox" class="interesse" id="c5" value="DESENVOLVIMENTO"><label class="interesse">Desenvolvimento</label></br>
+					<input type="checkbox" class="interesse" id="c7" value="ENGENHARIA DE SOFTWARE"><label class="interesse">Engenharia de Software</label></br> 
+					<input type="checkbox" class="interesse" id="c9" value="REDES DE COMPUTADORES"><label class="interesse">Redes de Computadores</label></br></br>
+				</div>
+					</br>
+				<div>
+					<input onClick="enviar()" id="botao" type="button" value="Enviar" name="botao">
+					<input id="botao" type="reset" value="Limpar">
+				</div>
+			</form>
+		</fieldset>
+	</div>
+
+<script language="javascript" type="text/javascript" charset="utf-8" src="javascript.js"> 
+	
+
+</script>
+</body>
+</html>

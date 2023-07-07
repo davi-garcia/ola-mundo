@@ -1,0 +1,107 @@
+label{
+
+	color: black;
+	width:10%;
+	font-weight: bold;
+	font-size: 100%;
+	
+}
+
+.linha1 {
+	width: 45%;
+	border-radius: 9px;
+	color: black;
+}
+
+.nasc {
+	width: 20%;
+	border-radius: 9px;
+}
+
+#sexo {
+	width: 140%;
+	font-size: 120%;
+	color: black;
+}
+#estadocivil {
+	width: 20%;
+	font-size: 110%;
+	color: black;
+}
+
+input {
+	
+	font-size: 100%;
+	color: grey;
+	border-radius: 5px;
+}
+
+body {
+	background-color: black;
+	box-sizing: 50%;
+}
+
+.interesse {
+	
+	font-size: 105%;
+	color: black;
+	
+}
+
+#botao {
+	font-size: 100%;
+	width: 20%;
+	color: black;
+	padding: 1%;
+	
+
+}
+
+header{
+	text-align: center;
+	background-color: lightblue;
+    position: fixed;
+    top:0;
+    left: 0;
+    width: 100%;
+    font-size: 240%;
+    
+}
+footer{
+	text-align: center;
+	background-color: lightgreen;
+    position: fixed;
+    bottom:0;
+    left: 0;
+    width: 100%;
+    font-size: 240%;
+    border-style: dashed;
+	border-color: green;
+    
+}
+
+.container{
+max-width: 750px;
+padding: 20px;
+margin: auto;
+
+}
+
+#fieldset{
+width: 35%;
+position: absolute;
+border: 3px solid rgb(0, 0, 0);
+background-color: grey;
+}
+
+#px	{
+width: 10%;
+height: 20px;
+
+}
+
+.titulo {
+  color: white;
+}
+
+}};
