@@ -1,3 +1,4 @@
+{
 label{
 
 	color: black;
@@ -101,7 +102,7 @@ height: 20px;
 }
 
 .titulo {
-  color: white;
+  color: rgb(255, 0, 0);
 }
 
-}};
+};
